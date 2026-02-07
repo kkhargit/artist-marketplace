@@ -1,6 +1,72 @@
-<div class="artwork">
-  <a href="artist.html?id=1">
-    <img src="images/art1.jpg" alt="Artwork 1">
-    <p>Sunset Overdrive by Artist A</p>
-  </a>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artist Marketplace</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>🎨 Artist Marketplace</h1>
+    <p>Discover amazing artwork and support your favorite artists</p>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Find Unique Creations</h2>
+      <p>Explore, admire, and buy artwork from talented artists around the world.</p>
+      <a href="#main-feed" class="btn">Start Exploring</a>
+    </div>
+    <div class="hero-image">
+      <img src="images/hero.jpg" alt="Gallery Hero">
+    </div>
+  </section>
+
+  <!-- MAIN FEED -->
+  <section id="main-feed" class="main-feed">
+    <div class="artwork">
+      <a href="artist.html?id=1">
+        <img src="images/art1.jpg" alt="Artwork 1">
+        <div class="art-info">
+          <h3>Sunset Overdrive</h3>
+          <p>by Artist A</p>
+          <span class="price">$120</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="artwork">
+      <a href="artist.html?id=2">
+        <img src="images/art2.jpg" alt="Artwork 2">
+        <div class="art-info">
+          <h3>Moonlit Dreams</h3>
+          <p>by Artist B</p>
+          <span class="price">$95</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="artwork">
+      <a href="artist.html?id=3">
+        <img src="images/art3.jpg" alt="Artwork 3">
+        <div class="art-info">
+          <h3>Color Burst</h3>
+          <p>by Artist C</p>
+          <span class="price">$150</span>
+        </div>
+      </a>
+    </div>
+
+    <!-- Add more artwork cards here -->
+  </section>
+
+  <footer>
+    &copy; 2026 Artist Marketplace | All rights reserved
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
