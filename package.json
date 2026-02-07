@@ -1,0 +1,23 @@
+{
+  "name": "artist-marketplace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --port=5500 --open=index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkhargit/artist-marketplace.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkhargit/artist-marketplace/issues"
+  },
+  "homepage": "https://github.com/kkhargit/artist-marketplace#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
